@@ -15,6 +15,9 @@ var MyFirstProgram = /** @class */ (function () {
     MyFirstProgram.prototype.runLast = function () {
         console.log('This method runs last!');
     };
+    MyFirstProgram.prototype.runMiddle = function () {
+        console.log("This method runs in between!");
+    };
     return MyFirstProgram;
 }());
 var newInstance = new MyFirstProgram("a", "b", "c");
